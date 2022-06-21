@@ -1,0 +1,44 @@
+DOM = document object model, document é o html (API do DOM)
+como acessar o dom = palavra reservada DOM
+a partir do document possibilita pegar um tag html e usar no JS.
+comando const $root = document.querySelector(#root); possibilita acessar o #root
+JS é diferente do DOM. (DOM comunica com os elementos do HTML)
+BOM = browser object model
+$root.textContent é o DOM, root. = objeto, document = o html, model = modelo que os navegadores seguem
+Componente = Player 1, Player 2, cartões  (conceito = reaproveitamento de um componente visual)
+Ñ use inner.html  (causa problema se segurança)
+targetEleemnte = objeto alvo 
+
+Element
+Element is the most general base class from which all element objects (i.e. objects that represent elements) in a Document inherit. It only has methods and properties common to all kinds of elements. More specific classes inherit from Element.
+
+For example, the HTMLElement interface is the base interface for HTML elements, while the SVGElement interface is the basis for all SVG elements. Most functionality is specified further down the class hierarchy.
+Properties
+Element inherits properties from its parent interface, Node, and by extension that interface's parent, EventTarget.
+
+Element.insertAdjacentHTML()
+The insertAdjacentHTML() method of the Element interface parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position.
+
+Syntax
+insertAdjacentHTML(position, text)
+Copy to Clipboard
+Parameters
+position
+A string representing the position relative to the element. Must be one of the following strings:
+
+"beforebegin"
+Before the element. Only valid if the element is in the DOM tree and has a parent element.
+
+"afterbegin"
+Just inside the element, before its first child.
+
+"beforeend"
+Just inside the element, after its last child.
+
+"afterend"
+After the element. Only valid if the element is in the DOM tree and has a parent element.
+
+text
+The string to be parsed as HTML or XML and inserted into the tree.
+
+import CardGame from "./src/components/cardGame";(importa o arquivo CSS)
