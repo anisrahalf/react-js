@@ -9,6 +9,7 @@ function BoardGame(amountCards) {
     return /*html*/`
     <section class="board-game">
         ${$htmlContent}
-    </section>`
+    </section>
+    `
 }
 export default BoardGame;
