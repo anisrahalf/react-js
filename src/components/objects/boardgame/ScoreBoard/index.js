@@ -1,5 +1,5 @@
 import PlayerName from "../../../PlayerName";
-
+import "./style.css";
 
 function Scoreboard() {
     return /*html*/ `
