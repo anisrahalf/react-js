@@ -1,10 +1,10 @@
 import "./style.css"
-import CardGame from "../../cardGame";
+import CardFrontBack from "../../CardFrontback";
 
 function BoardGame(amountCards) {
 
-    const $htmlCardGame = CardGame();
-    const $htmlContent = $htmlCardGame.repeat(amountCards);
+    const $htmlCardFrontBack = CardFrontBack();
+    const $htmlContent = $htmlCardFrontBack.repeat(amountCards);
 
     return /*html*/`
     <section class="board-game">
