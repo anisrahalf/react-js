@@ -46,3 +46,11 @@ import CardGame from "./src/components/cardGame";(importa o arquivo CSS)
 window = escopo global
 .parentNode = vai ao elemento pai(pode usar varias vezes ate chegar no elemento desejado)
 TOGGLE = se a classe n existe add, se existe remove.
+
+        // if($cardFrontback.classList.contains('-active')) {
+        //     $cardFrontback.classList.remove('-active')
+        // } else {
+        //     $cardFrontback.classList.add('-active')
+        // }
+
+        $cardFrontback.classList.toggle('-active') /*faz todo o processo comentado acima*/
